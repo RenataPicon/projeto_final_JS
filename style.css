@@ -15,5 +15,16 @@ main h1 {
     font-size: 40px;
     font-family: roboto slab;
     text-align: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    width: 100%;
+    max-width: 40rem;
+    background-color: #fff;
+    border-radius: 1.8rem;
     margin-top: 10px;
 }
