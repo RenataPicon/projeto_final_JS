@@ -21,7 +21,7 @@ const getCheckboxInput = ({ id, description, checked}) => {
 
     wrapper.appendChild(checkbox);
     wrapper.appendChild(label);
-
+//appendChild é um método em JavaScript usado para adicionar um novo nó (elemento) como o último filho de um elemento pai no DOM (Document Object Model). Em outras palavras, ele permite anexar um elemento (ou nó) dentro de outro elemento já existente.
     return wrapper;
 }
 
