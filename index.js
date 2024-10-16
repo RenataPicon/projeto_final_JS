@@ -30,9 +30,11 @@ window.onload = function() { //assim que a janela carregar = window.onload
         const checkbox = getCheckboxInput(task);
         const list = document.getElementById('to-do-list');
         const toDo = document.createElement('li');
+        const button = document.createElement('button');
 
         toDo.id = task.id;
         toDo.appendChild(checkbox);
+        toDo.appendChild(button);
 
         list.appendChild(toDo);
     })
