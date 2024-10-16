@@ -1,7 +1,7 @@
 let tasks = [
-    { id: 1, description: 'comprar pão', checked: false },
-    { id: 2, description: 'passear com o cachorro', checked: false },
-    { id: 3, description: 'fazer o almoço', checked: false },
+    { id: 1, description: 'Comprar pão', checked: false },
+    { id: 2, description: 'Passear com o cachorro', checked: false },
+    { id: 3, description: 'Fazer o almoço', checked: false },
 ]
 
 const getCheckboxInput = ({ id, description, checked}) => {
