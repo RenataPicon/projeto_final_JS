@@ -15,7 +15,18 @@
         <img id="strawberry" src="imagens/strawberry.png"> 
         <h1>Lista de Tarefas</h1>
             <section class="to-do-list-section">
-                <ul id="to-do-list"></ul>
+                <form id="create-todo-form">
+                    <input 
+                    type="text" 
+                    id="description" 
+                    name= description 
+                    class="input-description"
+                    aria-label="Qual a tarefa que deseja cadastrar?"
+                    placeholder="Qual a tarefa que deseja cadastrar?">
+                    <button type="submit" aria-label="Cadastrar tarefa" class="add-task-button">+</button>
+                </form>
+                <ul id="to-do-list">
+                </ul>
             </section>
     </main>
 </body>
