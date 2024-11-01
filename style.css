@@ -16,7 +16,7 @@ main h1 {
 }
 main {
     width: 100%;
-    max-width: 40rem;
+    max-width: 60rem;
     background-color: #fff;
     border-radius: 1.8rem;
     text-align: center;
@@ -34,6 +34,7 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     margin-right: 15px;
+    width: 100%;
 
     & > ul {
         padding-inline-start: 15px;
@@ -60,15 +61,10 @@ body {
     & > ul > li > button {
         width: 30px;
         height: 30px;
-        background-color: rgb(225, 132, 169);
         color: #fff;
         border: none;
         cursor: pointer;
         border-radius: 10px;
-    }
-
-    &:hover {
-        background-color: rgb(232, 198, 219);       
     }
 }
 .checkbox-label-container {
@@ -94,14 +90,14 @@ body {
     display: flex;
     flex-direction: row;
     margin-left: 15px;
-    width: 100%;
+
 
     & > input {
         padding: 5px;
         margin-right: 10px;
         margin-left: 10px;
         height: 20px;
-        width: 83.7%;
+        width: 90.6%;
         font-size: 15px;
         border-color: #545353;
     }
@@ -111,10 +107,10 @@ body {
         border: 1px solid #cac8c8;
     }
 }
-button {
+#save-task {
     width: 30px;
     height: 30px;
-    background-color: rgb(225, 132, 169);
+    background-color: rgb(83, 235, 121);
     color: #fff;
     border: none;
     cursor: pointer;
@@ -140,3 +136,35 @@ button {
         }
 }
 
+.remove-button {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    background: rgb(238, 31, 31);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.removeDoneTasksBtn {
+    box-sizing: border-box;
+    height: 4rem;
+    width: 10rem;
+    color: white;
+    background: rgb(238, 31, 31);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0 1.6rem;
+    margin-bottom: 20px;
+}
+.removeDoneTasksBtn:hover { /*opacidade do botão*/
+    opacity: 0.8;
+}
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-around;
+    font-size: 16px;
+    align-items: center;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,24 +11,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <script src="./index.js"></script>
 </head>
+
 <body>
     <main>
-        <img id="strawberry" src="imagens/strawberry.png"> 
+        <img id="strawberry" src="imagens/strawberry.png">
         <h1>Lista de Tarefas</h1>
-            <section class="to-do-list-section">
-                <form id="create-todo-form">
-                    <input 
-                    type="text" 
-                    id="description" 
-                    name= description 
-                    class="input-description"
-                    aria-label="Qual a tarefa que deseja cadastrar?"
-                    placeholder="Qual a tarefa que deseja cadastrar?">
-                    <button type="submit" aria-label="Cadastrar tarefa" class="add-task-button">+</button>
-                </form>
-                <ul id="to-do-list">
-                </ul>
-            </section>
+        <section class="to-do-list-section">
+            <form id="create-todo-form">
+                <input type="text" id="description" name=description class="input-description"
+                    aria-label="Qual a tarefa que deseja cadastrar?" placeholder="Qual a tarefa que deseja cadastrar?">
+                <button id="save-task" type="submit" aria-label="Cadastrar tarefa" class="add-task-button">+</button>
+            </form>
+            <ul id="to-do-list">
+            </ul>
+        </section>        
+        <footer>
+            <button class="removeDoneTasksBtn" onclick="removeDoneTasks()">Remover tarefas concluídas</button>
+        </footer>
     </main>
 </body>
+
 </html>
